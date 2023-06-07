@@ -1,6 +1,7 @@
 ﻿namespace exercise.Domain
 {
-    public class PersonType
+    public enum PersonType
     {
+        Individual = 1
     }
 }

@@ -8,5 +8,6 @@
         public string PersonalID { get; set; }
         public DateTime DateCreated { get; }
         public PersonType PersonType { get; set; }
+        public List< MyProperty { get; set; }
     }
 }

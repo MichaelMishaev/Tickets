@@ -5,7 +5,7 @@ namespace exercise.Infrastructure
 {
     public class AgentDBContext:DbContext
     {
-        public DbSet<Agent> Agents => Set<Agent>();
+        public DbSet<Agent> Orders => Set<Agent>();
 
         public AgentDBContext(DbContextOptions<AgentDBContext> options)
             : base(options)
